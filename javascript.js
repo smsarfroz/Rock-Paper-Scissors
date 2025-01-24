@@ -71,9 +71,9 @@ function playGame() {
     }
 
     if(humanScore > computerScore) {
-        console.log("Congrats, Human! You Won.");
+        prompt(`Congrats, Human! You Won. Final Score: ${humanScore} : ${computerScore}`);
     }else{
-        console.log("Computer has won the game.");
+        prompt(`Computer has won the game. Final Score: ${humanScore} : ${computerScore}`);
     }
 }
 
